@@ -7,6 +7,10 @@ This file contains the routes for your application.
 
 from app import app
 from flask import render_template, request, redirect, url_for
+from flask_mysqldb import MySQL
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import desc, asc
+
 
 
 ###
